@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>How much of your income are you spending on rent?</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Your styles should be called here -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+</head>
+
+<body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class='container'>
+        <h1>'Cancel rent' movement renews conversations about rent costs</h1>
+        <p class='byline'>By Sarah Molano</p>
+    </div>
+    <div class='container image'>
+        <img src='images/cover.jpg' />
+        <figcaption>Brooklyn tenants rally to cancel rent in July 2020. (Source: Erik McGregor/Getty Images)</figcaption>
+    </div>
+    <div class='container'>
+        <p>Amid the coronavirus pandemic, millions of people in the United States have struggled to consistently pay rent. Loss of income, unemployment and increased at-home costs are just a few contributors to this issue.</p>
+
+        <p>In New York, an eviction moratorium was put in motion by Gov. Andrew Cuomo to prevent evictions until May 1, 2021. Still, a state-wide "Cancel Rent" movement has taken form because the moratorium does not eliminate the need to pay rent, which some say will simply delay a large wave of evictions once lifted.</p>
+
+        <p>With the renewed focus on the costs of rent and evictions, let us revisit the advice from financial experts about budgeting for rent and other expenses. A popular rule of thumb is the <a href="https://www.nerdwallet.com/article/finance/money/how-much-should-i-spend-on-rent#:~:text=One%20popular%20rule%20of%20thumb,%24840%20per%20month%20on%20rent.">30% rule</a> — that a renter should strive to spend
+        only up to 30% of their monthly income on rent to remain financially stable. In the wake of this unprecedented crisis, however, how applicable is this rule?</p>
+
+    </div>
+    <div class='calc-container'>
+        <div class="container">
+            <h2>How much of your income are you spending on rent?</h2>
+            <div class="calculator">
+              <div class="userinput">
+                  <div class="income_input">
+                    <p>Your monthly income: $</p>
+                    <div>
+                        <input type="number" name='income' value="0" />
+                    </div>
+                  </div>
+                  <div class="rent_input">
+                    <p>Your monthly rent: $</p>
+                    <div>
+                      <input type="number" name='rent' value="0" />
+                    </div>
+                  </div>
+                </div>
+                <div class="total"
+                  <input type ="button" value="Calculate" onclick="calculation()">
+                  <p>Remaining Income: $<span></span>
+                  </div>
+</div>
+</div>
+</div>
+
+
+    <div class='container'>
+
+        <p>If you're finding that you're spending more than your 30%, you're not alone. In New York City, about two-thirds of residents are renters. According to <a href="https://www.localhousingsolutions.org/analyze/housing-needs-assessment/visualizations/moderately-or-severely-rent-burdened-households/">Local Housing Solutions</a> by the New York University Furman Center, "In 2016, over half of renter households (53.4 percent) were rent burdened (paying more than 30 percent of their income on rent) and 29.3 percent of renter households were severely rent burdened (paying over 50 percent of their income on rent)." It is likely that those figures have worsened since the pandemic and following housing trends.</p>
+
+        <p>Of course, with a significant portion of our income going toward rent, residents are left with less income for other expenses like bills, paying off debts like student loans, food and child care. Entertainment and leisure? Forget about it!</p>
+
+    </div>
+
+    <!-- Your javascript should be called here -->
+    <script src="main.js"></script>
+</body>
+
+</html>
